@@ -1,3 +1,8 @@
+# 问题
+## 127.0.0.1：8001
+![image](https://github.com/badboycxcc/Heroinn/assets/72059221/e4e5c1f9-6ba8-46fc-b802-d762258c2f8f)
+
+
 # Heroinn
 A cross platform C2/post-exploitation framework implementation by Rust.
 
