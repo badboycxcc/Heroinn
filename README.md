@@ -6,6 +6,12 @@
 ## 192.168.1.1：9998
 ![image](https://github.com/badboycxcc/Heroinn/assets/72059221/f04331f5-f3a5-4136-8af5-ddfcb1d31168)
 
+
+## 1.1.1.1：1111
+![image](https://github.com/badboycxcc/Heroinn/assets/72059221/be7dbb64-893a-4ad5-bca0-501b82ec712b)
+
+
+
 # Heroinn
 A cross platform C2/post-exploitation framework implementation by Rust.
 
