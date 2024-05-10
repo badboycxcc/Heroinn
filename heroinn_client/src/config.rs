@@ -11,8 +11,15 @@ pub fn master_configure() -> ConnectionInfo {
     if size == 0 {
         log::debug!("use default config");
         return ConnectionInfo {
+            // UDP
             protocol: HeroinnProtocol::UDP.to_u8(),
             address: String::from("127.0.0.1:8000"),
+            // TCP
+            // protocol: HeroinnProtocol::TCP.to_u8(),
+            // address: String::from("127.0.0.1:8001"),
+            // HTTP
+            // protocol: HeroinnProtocol::HTTP.to_u8(),
+            // address: String::from("127.0.0.1:8002"),
             remark: String::from("Default"),
         };
     }
