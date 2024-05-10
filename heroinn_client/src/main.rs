@@ -95,6 +95,7 @@ fn main() {
             Ok(p) => p,
             Err(e) => {
                 log::info!("connect faild : {}", e);
+                // 默认Sleep 5 秒
                 std::thread::sleep(Duration::from_secs(5));
                 continue;
             }
