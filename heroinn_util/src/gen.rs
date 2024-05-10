@@ -3,6 +3,7 @@ use std::io::*;
 
 pub const CONNECTION_INFO_FLAG: [u8; 8] = [0xff, 0xfe, 0xf1, 0xa1, 0xff, 0xfe, 0xf1, 0xa1];
 
+// 替换函数
 pub fn replace_connection_info_to_new_file(
     path: &String,
     new_path: &String,
